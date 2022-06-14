@@ -22,7 +22,7 @@
         })
         function NowaLinia(dane){
         answer.innerHTML = "";
-          for(var i=0;i<dane.length;i++){
+          for(var i=0;i<dane.length; i++);
             var div= document.createElement("div");
             div.innerHTML="UserID:" +dane[i].userId +'<br><br>' +"Id:" +dane[i].id+ '<br></br>' +"Title:" +dane[i].title+'<br>                    </br>'+"Body:" +dane[i].body+'<br></br>';
             answer.appendChild(div);
